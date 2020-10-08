@@ -1,2 +1,2 @@
-# Hi-Tech-Controls
+# HiTech-New
 Hi-Tech Controls Website
