@@ -20,6 +20,7 @@
 			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 		/>
 		<link rel="stylesheet" href="./css/comman.css" />
+		<link rel="stylesheet" href="./css/contact-us.css" />
 		<link rel="stylesheet" href="./css/index.css" />
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
@@ -27,6 +28,48 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 		<title>Contact us | Hitech Controls</title>
+		<!--javascript alert-->
+		<script>
+			function show_alert() {
+				var name = document.myform.txtName.value;
+				var email = document.myform.txtEmail.value;
+				var phn_no = document.myform.txtPhone.value;
+				var msg = document.myform.txtMsg.value;
+
+				if (name == null || name == "") {
+					alert("Please! Enter Your Name...");
+					return false;
+				} else if (email == null || email == "") {
+					alert("Please! Enter Your Email...");
+					return false;
+				} else if (phn_no == null || phn_no == "") {
+					alert("Please! Enter Your Phone Number...");
+					return false;
+				} else if (msg == null || msg == "") {
+					alert("Please! Enter Your Message...");
+					return false;
+				} else {
+					const obj = {
+						name,
+						email,
+						phn_no,
+						msg,
+					};
+					//Printing the Inputs entered by the User
+					alert(
+						`Thank You for contacting Prisma! \n We Received your Message as follows. \n\n${JSON.stringify(
+							obj,
+							null,
+							4
+						)}\n\n We'll contact you as soon as possible.`
+					);
+				}
+				//page location after sending message
+				window.location = "#";
+				//refresh page after sending message
+				window.location.reload();
+			}
+		</script>
 	</head>
 
 	<body>
@@ -156,6 +199,70 @@
 					</p>
 				</div>
 			</div>
+		</div>
+		<br />
+		<div class="container contact-form">
+			<!--contact us icon-->
+			<div class="contact-image">
+				<img src="./img/icon/email (1).png" alt="rocket_contact" />
+			</div>
+			<!--contact us form-->
+			<form name="myform" method="post">
+				<h3>Drop Us a Message</h3>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<input
+								type="text"
+								name="txtName"
+								class="form-control"
+								placeholder="Your Name *"
+								value=""
+							/>
+						</div>
+						<div class="form-group">
+							<input
+								type="text"
+								name="txtEmail"
+								class="form-control"
+								placeholder="Your Email *"
+								value=""
+							/>
+						</div>
+						<div class="form-group">
+							<input
+								type="text"
+								name="txtPhone"
+								class="form-control"
+								placeholder="Your Phone Number *"
+								value=""
+							/>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<textarea
+								name="txtMsg"
+								class="form-control usermsg"
+								placeholder="Your Message *"
+							></textarea>
+						</div>
+					</div>
+				</div>
+				<br />
+				<br />
+				<div class="row justify-content-md-center">
+					<div class="col">
+						<input
+							type="button"
+							name="btnSubmit"
+							class="btnContact"
+							value="Send Message"
+							onclick="show_alert()"
+						/>
+					</div>
+				</div>
+			</form>
 		</div>
 
 		<!--Footer-->
