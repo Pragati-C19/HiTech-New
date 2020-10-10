@@ -19,12 +19,16 @@
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 		/>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 		<link rel="stylesheet" href="./css/comman.css" />
 		<link rel="stylesheet" href="./css/index.css" />
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 
 		<title>Hitech Controls</title>
 	</head>
@@ -443,6 +447,20 @@
         </div>
         <br>
         <!--Clients-->
+		<div class="row">
+			<h4>Our Proud Clients</h4>
+		</div>
+		<div class="responsive-slick-slider">
+			<div><img class="w-100 p-1" src="./img/clients/idbi-bank.png" alt=""></div>
+			<div><img class="w-100 p-1" src="./img/clients/jain-irrigation.png" alt=""></div>
+			<div><img class="w-100 p-1" src="./img/clients/legrand.jpg" alt=""></div>
+			<div><img class="w-100 p-1" src="./img/clients/lomat-news.png" alt=""></div>
+			<div><img class="w-100 p-1" src="./img/clients/marico.jpg" alt=""></div>
+			<div><img class="w-100 p-1" src="./img/clients/nmu.png" alt=""></div>
+			<div><img class="w-100 p-1" src="./img/clients/raymond.png" alt=""></div>
+			<div><img class="w-100 p-1" src="./img/clients/sakal.jpg" alt=""></div>
+			<div><img class="w-100 p-1" src="./img/clients/supreme-plastics.png" alt=""></div>
+		  </div>
 
 		<!--Footer-->
 		<div class="footer-basic">
@@ -488,5 +506,35 @@
 				</p>
 			</footer>
 		</div>
+
+		<script>
+			$(document).ready(function(){
+			$('.responsive-slick-slider').slick({
+				dots: true,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 7,
+				slidesToScroll: 1,
+				responsive: [
+					{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 6,
+						slidesToScroll: 1,
+						infinite: true,
+						dots: true
+					}
+					},
+					{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1
+					}
+					}
+				]
+				});
+			})
+		</script>
 	</body>
 </html>
