@@ -1,316 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<meta
-			name="description"
-			content="HI TECH CONTROLS IS THE MAJOR ELECTRONICS PRODUCTS MANUFACTURER COMPANY. COMPANY PROVIDES VARIOUS PRODUCTS LIKE LIFT INVERTERS , STABILIZERS , SOLAR ROOFTOP SYSYEM , UPS CUSTOM BUILT CONTROL PANELS , PLC BASED AUTOMATION SYSTEMS AND MANY MORE PRODUCTS. HI-TECH CONTROL IS A REGISTERED SSI ESTABLISHMENTS INCORPORATED UNDER TECHNOCRATS SCHEME OF GOVERNMENT OF INDIA & PROMOTED BY TECHNOCRATS WITH SOUND EXPERIENCE IN THE FIELD OF DESIGN / MANUFACTURE / ERECTION / COMMISSIONING OF CUSTOM BUILT POWER PROJECT AS A INSTALLATION OF THE ON-GRID & OFF- GRID SOLAR POWER PLANTS. THE PROPRIETOR OF THE COMPANY IS DULY QUALIFIED OF B.TECH. IN INDUSTRIAL ELECTRONICS & MBA ( MARKETING ) WITH EXPERIENCE OF 25 YEARS IN PRODUCTION SYSTEMS WITH MANAGEMENTS , SALES AND R & D."
-		/>
-		<meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="HI TECH CONTROLS IS THE MAJOR ELECTRONICS PRODUCTS MANUFACTURER COMPANY. COMPANY PROVIDES VARIOUS PRODUCTS LIKE LIFT INVERTERS , STABILIZERS , SOLAR ROOFTOP SYSYEM , UPS CUSTOM BUILT CONTROL PANELS , PLC BASED AUTOMATION SYSTEMS AND MANY MORE PRODUCTS. HI-TECH CONTROL IS A REGISTERED SSI ESTABLISHMENTS INCORPORATED UNDER TECHNOCRATS SCHEME OF GOVERNMENT OF INDIA & PROMOTED BY TECHNOCRATS WITH SOUND EXPERIENCE IN THE FIELD OF DESIGN / MANUFACTURE / ERECTION / COMMISSIONING OF CUSTOM BUILT POWER PROJECT AS A INSTALLATION OF THE ON-GRID & OFF- GRID SOLAR POWER PLANTS. THE PROPRIETOR OF THE COMPANY IS DULY QUALIFIED OF B.TECH. IN INDUSTRIAL ELECTRONICS & MBA ( MARKETING ) WITH EXPERIENCE OF 25 YEARS IN PRODUCTION SYSTEMS WITH MANAGEMENTS , SALES AND R & D."
+    />
+    <meta name="robots" content="index, follow" />
 
-		<link rel="icon" href="./img/icon/logo-blue.png" type="image/png" />
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		/>
-		<link rel="stylesheet" href="./css/comman.css" />
-		<link rel="stylesheet" href="./css/contact-us.css" />
-		<link rel="stylesheet" href="./css/index.css" />
+    <link rel="icon" href="./img/icon/logo-blue.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/comman.css" />
+    <link rel="stylesheet" href="./css/card-shadow.css" />
+    <link rel="stylesheet" href="./css/contact-us.css" />
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-		<title>Contact us | Hitech Controls</title>
-		<!--javascript alert-->
-		<script>
-			function show_alert() {
-				var name = document.myform.txtName.value;
-				var email = document.myform.txtEmail.value;
-				var phn_no = document.myform.txtPhone.value;
-				var msg = document.myform.txtMsg.value;
+    <title>Contact us | Hitech Controls</title>
+    <!--javascript alert-->
+    <script>
+      function show_alert() {
+        var name = document.myform.txtName.value;
+        var email = document.myform.txtEmail.value;
+        var phn_no = document.myform.txtPhone.value;
+        var msg = document.myform.txtMsg.value;
 
-				if (name == null || name == "") {
-					alert("Please! Enter Your Name...");
-					return false;
-				} else if (email == null || email == "") {
-					alert("Please! Enter Your Email...");
-					return false;
-				} else if (phn_no == null || phn_no == "") {
-					alert("Please! Enter Your Phone Number...");
-					return false;
-				} else if (msg == null || msg == "") {
-					alert("Please! Enter Your Message...");
-					return false;
-				} else {
-					const obj = {
-						name,
-						email,
-						phn_no,
-						msg,
-					};
-					//Printing the Inputs entered by the User
-					alert(
-						`Thank You for contacting Prisma! \n We Received your Message as follows. \n\n${JSON.stringify(
-							obj,
-							null,
-							4
-						)}\n\n We'll contact you as soon as possible.`
-					);
-				}
-				//page location after sending message
-				window.location = "#";
-				//refresh page after sending message
-				window.location.reload();
-			}
-		</script>
-	</head>
+        if (name == null || name == "") {
+          alert("Please! Enter Your Name...");
+          return false;
+        } else if (email == null || email == "") {
+          alert("Please! Enter Your Email...");
+          return false;
+        } else if (phn_no == null || phn_no == "") {
+          alert("Please! Enter Your Phone Number...");
+          return false;
+        } else if (msg == null || msg == "") {
+          alert("Please! Enter Your Message...");
+          return false;
+        } else {
+          const obj = {
+            name,
+            email,
+            phn_no,
+            msg,
+          };
+          //Printing the Inputs entered by the User
+          alert(
+            `Thank You for contacting Prisma! \n We Received your Message as follows. \n\n${JSON.stringify(
+              obj,
+              null,
+              4
+            )}\n\n We'll contact you as soon as possible.`
+          );
+        }
+        //page location after sending message
+        window.location = "#";
+        //refresh page after sending message
+        window.location.reload();
+      }
+    </script>
+  </head>
 
-	<body>
-		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="./">
-				<img src="./img/icon/logo-blue.png" class="nav-icon" alt="" />
-				Hi Tech Controls
-			</a>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./">
+        <img src="./img/icon/logo-blue.png" class="nav-icon" alt="" />
+        Hi Tech Controls
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="./">Home </a>
-					</li>
-					<li class="nav-item dropdown">
-						<a
-							class="nav-link dropdown-toggle drop-font"
-							id="navbarDropdown"
-							role="button"
-							data-toggle="dropdown"
-							aria-haspopup="true"
-							aria-expanded="false"
-						>
-							Solar
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="./why-solar.html">Why solar</a>
-							<a class="dropdown-item" href="./what-is-solar.html"
-								>What is solar</a
-							>
-							<a class="dropdown-item" href="./types-of-solar.html"
-								>Types of solar</a
-							>
-							<a class="dropdown-item" href="./solutions-we-provide.html"
-								>Solutions we provide</a
-							>
-						</div>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="./rooftop-solar.html">Rooftop Solar </a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="./why-us.html">Why us </a>
-					</li>
-					<li class="nav-item dropdown">
-						<a
-							class="nav-link dropdown-toggle drop-font"
-							id="navbarDropdown"
-							role="button"
-							data-toggle="dropdown"
-							aria-haspopup="true"
-							aria-expanded="false"
-						>
-							Products
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="./solar-street-light.html"
-								>Solar Streetlight</a
-							>
-							<a class="dropdown-item" href="/lift-inverter.html"
-								>Lift Inverter</a
-							>
-							<a class="dropdown-item" href="./ups.html">UPS</a>
-							<a class="dropdown-item" href="./inverter.html">Inverter</a>
-							<a class="dropdown-item" href="./control-panel.html"
-								>Control Panel</a
-							>
-							<a class="dropdown-item" href="./cvt.html">CVT</a>
-						</div>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="./contact-us.html">Contact us </a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<br />
-		<br />
-		<br />
-		<div class="container">
-			<div class="row">
-				<div class="col-sm">
-					<h1>Our Contacts</h1>
-					<br />
-					<h4>Address :</h4>
-					<div class="col-sm">
-						Hi-TECH CONTROLS M - 12, M.I.D.C., <br />
-						Area, Natioanal Highway 6, <br />
-						Jalgaon - 425001 (M.S.)
-					</div>
-					<br />
-					<h4>Phone Numbers :</h4>
-					<div class="col-sm">
-						+91 257 2211639 2210194 <br />
-						+91 9422277158, 9766167323
-					</div>
-					<br />
-					<h4>Email Address :</h4>
-					<div class="col-sm">hitechcontrols2011@gmail.com</div>
-				</div>
-				<div class="col-sm">
-					<br />
-					<br />
-					<p>
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.7820173645964!2d75.59397311440692!3d21.001373294089714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90ee955555555%3A0xbce9f770d34042ed!2sHi%20-Tech%20Controls!5e0!3m2!1sen!2sin!4v1602250760136!5m2!1sen!2sin"
-							width="750"
-							height="400"
-							frameborder="0"
-							style="border: 10"
-							allowfullscreen=""
-							aria-hidden="false"
-							tabindex="0"
-						></iframe>
-					</p>
-				</div>
-			</div>
-		</div>
-		<br />
-		<div class="container contact-form">
-			<!--contact us icon-->
-			<div class="contact-image">
-				<img src="./img/icon/email (1).png" alt="rocket_contact" />
-			</div>
-			<!--contact us form-->
-			<form name="myform" method="post">
-				<h3>Drop Us a Message</h3>
-				<div class="row">
-					<div class="col-md-6">
-						<div class="form-group">
-							<input
-								type="text"
-								name="txtName"
-								class="form-control"
-								placeholder="Your Name *"
-								value=""
-							/>
-						</div>
-						<div class="form-group">
-							<input
-								type="text"
-								name="txtEmail"
-								class="form-control"
-								placeholder="Your Email *"
-								value=""
-							/>
-						</div>
-						<div class="form-group">
-							<input
-								type="text"
-								name="txtPhone"
-								class="form-control"
-								placeholder="Your Phone Number *"
-								value=""
-							/>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="form-group">
-							<textarea
-								name="txtMsg"
-								class="form-control usermsg"
-								placeholder="Your Message *"
-							></textarea>
-						</div>
-					</div>
-				</div>
-				<br />
-				<br />
-				<div class="row justify-content-md-center">
-					<div class="col">
-						<input
-							type="button"
-							name="btnSubmit"
-							class="btnContact"
-							value="Send Message"
-							onclick="show_alert()"
-						/>
-					</div>
-				</div>
-			</form>
-		</div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./">Home </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle drop-font"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Solar
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./why-solar.html">Why solar</a>
+              <a class="dropdown-item" href="./what-is-solar.html"
+                >What is solar</a
+              >
+              <a class="dropdown-item" href="./types-of-solar.html"
+                >Types of solar</a
+              >
+              <a class="dropdown-item" href="./solutions-we-provide.html"
+                >Solutions we provide</a
+              >
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./rooftop-solar.html">Rooftop Solar </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./why-us.html">Why us </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle drop-font"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./solar-street-light.html"
+                >Solar Streetlight</a
+              >
+              <a class="dropdown-item" href="/lift-inverter.html"
+                >Lift Inverter</a
+              >
+              <a class="dropdown-item" href="./ups.html">UPS</a>
+              <a class="dropdown-item" href="./inverter.html">Inverter</a>
+              <a class="dropdown-item" href="./control-panel.html"
+                >Control Panel</a
+              >
+              <a class="dropdown-item" href="./cvt.html">CVT</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./contact-us.html">Contact us </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
+    <div class="container p-2">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 contact-left">
+          <h1>Contacts us at</h1>
+          <br />
+          <h4><i class="fas fa-map-marked-alt contact-icon"></i> Address :</h4>
+          <div class="col-sm">
+            Hi-TECH CONTROLS M - 12, M.I.D.C., <br />
+            Area, Natioanal Highway 6, <br />
+            Jalgaon - 425001 (M.S.)
+          </div>
+          <br />
+          <h4><i class="fas fa-phone-alt contact-icon"></i> Phone Numbers :</h4>
+          <div class="col-sm">
+            +91 257 2211639, 257 2210194
+            <br />
+            +91 9422277158, 9766167323
+          </div>
+          <br />
+          <h4>
+            <i class="fas fa-envelope-open-text contact-icon"></i> Email Address
+            :
+          </h4>
+          <div class="col-sm">hitechcontrols2011@gmail.com</div>
+        </div>
+        <div class="col-sm">
+          <div class="iframe-holder">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.7820173645964!2d75.59397311440692!3d21.001373294089714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90ee955555555%3A0xbce9f770d34042ed!2sHi%20-Tech%20Controls!5e0!3m2!1sen!2sin!4v1602250760136!5m2!1sen!2sin"
+              style="width: 100%"
+              height="400"
+              frameborder="0"
+              style="border: 10"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="container contact-form">
+      <!--contact us icon-->
+      <div class="contact-image">
+        <img src="./img/icon/email (1).png" alt="rocket_contact" />
+      </div>
+      <!--contact us form-->
+      <form name="myform" method="post">
+        <h3>Drop Us a Message</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input
+                type="text"
+                name="txtName"
+                class="form-control"
+                placeholder="Your Name *"
+                value=""
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="txtEmail"
+                class="form-control"
+                placeholder="Your Email *"
+                value=""
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="txtPhone"
+                class="form-control"
+                placeholder="Your Phone Number *"
+                value=""
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <textarea
+                name="txtMsg"
+                class="form-control usermsg"
+                placeholder="Your Message *"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="row justify-content-md-center">
+          <div class="col d-flex justify-content-center">
+            <input
+              type="button"
+              name="btnSubmit"
+              class="btnContact"
+              value="Send Message"
+              onclick="show_alert()"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
 
-		<!--Footer-->
-		<div class="footer-basic">
-			<footer>
-				<div class="social">
-					<a href="tel:9766167323">
-						<i class="fa fa-phone-square" aria-hidden="true"></i>
-					</a>
+    <!--Footer-->
+    <div class="footer-basic">
+      <footer>
+        <div class="social">
+          <a href="tel:9766167323">
+            <i class="fa fa-phone-square" aria-hidden="true"></i>
+          </a>
 
+          <a href="https://www.youtube.com/channel/UC-8eKlkxkwHI-dfB8PDvspA">
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          </a>
 
-					<a href="https://www.youtube.com/channel/UC-8eKlkxkwHI-dfB8PDvspA">
-						<i class="fa fa-youtube-play" aria-hidden="true"></i>
-					</a>
+          <a
+            href="https://wa.me/919766167323?text=I'm%20interested%20in%20Solar%20Power%20Installation"
+          >
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+          </a>
 
-					<a
-						href="https://wa.me/919766167323?text=I'm%20interested%20in%20Solar%20Power%20Installation"
-					>
-						<i class="fa fa-whatsapp" aria-hidden="true"></i>
-					</a>
+          <a href="https://www.facebook.com/hitechcontrols2011">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          </a>
 
-					<a href="https://www.facebook.com/hitechcontrols2011">
-						<i class="fa fa-facebook-square" aria-hidden="true"></i>
-					</a>
-
-					<a href="mailto:hitechcontrols2011@gmail.com">
-						<i class="fa fa-google" aria-hidden="true"> </i>
-					</a>
-				</div>
-				<ul class="list-inline">
-					<li class="list-inline-item"><a href="/">Home</a></li>
-					<li class="list-inline-item">
-						<a href="./rooftop-solar.html">Rooftop</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="./why-us.html">Why us</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="./contact-us.html">Contact us</a>
-					</li>
-				</ul>
-				<p class="copyright">
-					<i class="fa fa-copyright" aria-hidden="true"></i> All rights Reserved
-					<a href="/">Hi-Tech Controls,Jalgaon</a>
-				</p>
-			</footer>
-		</div>
-	</body>
+          <a href="mailto:hitechcontrols2011@gmail.com">
+            <i class="fa fa-google" aria-hidden="true"> </i>
+          </a>
+        </div>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="/">Home</a></li>
+          <li class="list-inline-item">
+            <a href="./rooftop-solar.html">Rooftop</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="./why-us.html">Why us</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="./contact-us.html">Contact us</a>
+          </li>
+        </ul>
+        <p class="copyright">
+          <i class="fa fa-copyright" aria-hidden="true"></i> All rights Reserved
+          <a href="/">Hi-Tech Controls,Jalgaon</a>
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>
