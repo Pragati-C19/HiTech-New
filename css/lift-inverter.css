@@ -1,0 +1,53 @@
+/* Lift Inverter Tables */
+.inverted-table > thead > tr > *,
+.inverted-table > tbody > tr > * {
+  display: block;
+}
+
+/* Mobile View Inverted CSS */
+@media (max-width: 600px) {
+  .inverted-table > thead > tr > *,
+  .inverted-table > tbody > tr > * {
+    display: block;
+    min-height: 100px;
+    border: 0.5px solid;
+  }
+}
+.inverted-table > thead > tr,
+.inverted-table > tbody > tr {
+  display: table-cell;
+}
+
+/* Lift Table */
+.lift-inv-table {
+  border: 1px solid gray;
+}
+.lift-inv-table > thead > tr,
+.lift-inv-table > tbody > tr {
+  border: 1px solid gray;
+}
+
+.lift-inv-table > thead > tr > th,
+.lift-inv-table > tbody > tr > td {
+  padding: 10px;
+}
+
+/* Title */
+.row-title {
+  margin: 5px auto;
+}
+
+.card {
+  margin: 12px;
+}
+
+/* Desktop View of Product Table */
+@media (min-width: 600px) {
+  .product-table {
+    margin: 10px auto;
+  }
+  .product-table.lift-inv-tablet > head > tr > th,
+  .product-table.lift-inv-table > tbody > tr > td {
+    padding: 15px 35px;
+  }
+}
