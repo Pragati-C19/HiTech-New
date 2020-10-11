@@ -1,0 +1,11 @@
+.card.p-2 {
+  margin: 10px;
+}
+
+table.MsoNormalTable > tbody > tr:nth-child(odd) > td {
+  background: #fff;
+}
+
+table.MsoNormalTable > tbody > tr:nth-child(even) > td {
+  background: #fafafa;
+}
