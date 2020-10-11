@@ -1,0 +1,59 @@
+body {
+	background: -webkit-linear-gradient(left, #f5caea, #f5a9bc);
+}
+.contact-form {
+	background: -webkit-linear-gradient(left, #4893f0, #00c6ff);
+}
+.contact-form {
+	margin-top: 10%;
+	margin-bottom: 5%;
+	width: 70%;
+}
+.contact-form .form-control {
+	border-radius: 1rem;
+}
+.contact-form .usermsg {
+	width: 100%;
+	height: 150px;
+}
+.contact-image {
+	text-align: center;
+}
+.contact-image img {
+	width: 12%;
+	margin-top: -5%;
+}
+.contact-form form {
+	padding: 14%;
+}
+.contact-form form .row {
+	margin-bottom: -7%;
+}
+.contact-form h3 {
+	margin-bottom: 8%;
+	margin-top: -10%;
+	font-size: 250%;
+	text-align: center;
+	color: #631f3d;
+}
+.contact-form .btnContact {
+	width: 25%;
+	border: none;
+	outline: none;
+	border-radius: 1rem;
+	padding: 1.5%;
+	background: #04ad1a;
+	font-weight: 600;
+	color: #fff;
+	cursor: pointer;
+}
+.btnContactSubmit {
+	width: 50%;
+	border-radius: 1rem;
+	padding: 1.5%;
+	color: #fff;
+	background-color: #0062cc;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
