@@ -1,0 +1,93 @@
+/* Normal UPS Table */
+.ups-table {
+  border: 1px solid gray;
+}
+.ups-table > thead > tr,
+.ups-table > tbody > tr {
+  border: 1px solid gray;
+}
+
+.ups-table > thead > tr > th,
+.ups-table > thead > tr > td,
+.ups-table > tbody > tr > th,
+.ups-table > tbody > tr > td {
+  padding: 10px;
+}
+
+/* Inverted UPS Table */
+/* Lift Inverter Tables */
+.inverted-ups-table > thead > tr > *,
+.inverted-ups-table > tbody > tr > * {
+  display: block;
+}
+
+/* Mobile View Inverted CSS */
+@media (max-width: 600px) {
+  .inverted-ups-table > thead > tr > *,
+  .inverted-ups-table > tbody > tr > * {
+    display: block;
+    min-height: 100px;
+    border: 0.5px solid;
+  }
+}
+.inverted-ups-table > thead > tr,
+.inverted-ups-table > tbody > tr {
+  display: table-cell;
+}
+/* Title */
+.row-title {
+  margin: 5px auto;
+}
+
+td.d-flex.flex-row > .col-3,
+td.d-flex.flex-row > .col-4 {
+  border: 0.5px solid gray;
+}
+
+.card {
+  margin: 10px;
+}
+/* Mobile View */
+@media (max-width: 600px) {
+  .button-on-img > ul {
+    display: none;
+  }
+}
+/* Desktop CSS*/
+@media (min-width: 600px) {
+  .button-on-img {
+    height: 80vh;
+    width: 100;
+    background: url("../img/products/ups/UPS-bg-hitech.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .button-on-img > ul {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+  }
+  .button-on-img > ul > li > a {
+    font-weight: bold;
+    padding: 25px;
+  }
+  .button-on-img > ul > li {
+    margin: 10px;
+  }
+  .button-on-img > img {
+    display: none;
+  }
+  .nav-link.btn.btn-outline-warning {
+    background: rgb(255, 255, 255, 0.4);
+  }
+  .nav-link.btn.btn-outline-warning:hover {
+    color: white;
+  }
+  .nav-link.btn.btn-outline-warning.active {
+    color: white;
+  }
+}

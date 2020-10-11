@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/comman.css">
+    <link rel="stylesheet" href="./css/card-shadow.css">
     <link rel="stylesheet" href="./css/products.css">
     <link rel="stylesheet" href="./css/tables.css">
+    <link rel="stylesheet" href="./css/lift-inverter.css">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
     </script>
@@ -89,16 +91,18 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-7">
-                <p class="para">LIFT UPS is an OFF LINE UPS which has 3 main parts namely – Charger, Inverter and
+            <div class="col-md-7 d-flex flex-column justify-content-center align-items-center">
+                <p class="para p-3">LIFT UPS is an OFF LINE UPS which has 3 main parts namely – Charger, Inverter and
                     Batteries. As
                     majority of Elevators use three phase power supply, the UPS also is three phase input and three
                     phase output
                     type. The LIFT UPS takes three phase supply and feeds to Elevator simultaneously charging the
                     batteries. In
                     case of a power cut, the inverter turns on battery mode and generates three phase output to feed the
-                    load.
-                    This transition takes place within a time period of 15-20 seconds depending upon the configuration
+                    load.<br>
+<br>
+
+                        This transition takes place within a time period of 15-20 seconds depending upon the configuration
                     of the
                     variable frequency drive (VFD / V3F) used by the elevator. When the mains supply or utility gets
                     restored,
@@ -114,60 +118,67 @@
         </div>
     </div>
 
-    <div class="table-wrapper">
-        <table class="fl-table">
-            <thead>
-                <tr>
-                    <th class="head-nav">Model</th>
-                    <th>ELOS-06</th>
-                    <th>ELOS-08</th>
-                    <th>ELOS-12</th>
-                    <th>ELOS-15</th>
-                    <th>ELOS-20</th>
-                    <th>ELOS-25</th>
-                    <th>ELOS-30</th>
-                    <th>ELOS-40</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th class="head-nav">Capacity
-                    </th>
-                    <td>4.8 KW</td>
-                    <td>6.4 KW</td>
-                    <td>9.6 KW</td>
-                    <td>12 KW</td>
-                    <td>16 KW</td>
-                    <td>20 KW</td>
-                    <td>24 KW</td>
-                    <td>32 KW</td>
-                </tr>
-                <tr>
-                    <th class="head-nav">KVA</th>
-                    <td>6 KVa</td>
-                    <td>8 KVa</td>
-                    <td>12 KVa</td>
-                    <td>15 KVa</td>
-                    <td>20 KVa</td>
-                    <td>25 KVa</td>
-                    <td>30 KVa</td>
-                    <td>40 KVa</td>
-                </tr>
 
-            <tbody>
-        </table>
-    </div>
 
     <div class="container">
+        <h4 class="row-title">Products Available</h4>
+        <div class="row">
+        <div class="card card1 w-100">
+        <div class="table-responsive w-100">
+            <table class="table-striped lift-inv-table product-table">
+                <thead>
+                    <tr>
+                        <th class="head-nav">Model</th>
+                        <th>ELOS-06</th>
+                        <th>ELOS-08</th>
+                        <th>ELOS-12</th>
+                        <th>ELOS-15</th>
+                        <th>ELOS-20</th>
+                        <th>ELOS-25</th>
+                        <th>ELOS-30</th>
+                        <th>ELOS-40</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="head-nav">Capacity
+                        </th>
+                        <td>4.8 KW</td>
+                        <td>6.4 KW</td>
+                        <td>9.6 KW</td>
+                        <td>12 KW</td>
+                        <td>16 KW</td>
+                        <td>20 KW</td>
+                        <td>24 KW</td>
+                        <td>32 KW</td>
+                    </tr>
+                    <tr>
+                        <th class="head-nav">KVA</th>
+                        <td>6 KVa</td>
+                        <td>8 KVa</td>
+                        <td>12 KVa</td>
+                        <td>15 KVa</td>
+                        <td>20 KVa</td>
+                        <td>25 KVa</td>
+                        <td>30 KVa</td>
+                        <td>40 KVa</td>
+                    </tr>
+    
+                <tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+
         <h4>Features</h4>
         <div class="row">
-            <div class="card">
+            <div class="card card2">
 
                 <div class="card-body">
                     <h5 class="card-title">AC INPUT</h5>
                     <p class="card-text">
-                        <div class="table-wrapper">
-                            <table class="fl-table">
+                        <div class="table-responsive">
+                            <table class="lift-inv-table table-striped">
                                 <thead>
                                     <tr>
                                         <th>Input voltage </th>
@@ -188,13 +199,13 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card card3">
 
                 <div class="card-body">
                     <h5 class="card-title">AC INPUT</h5>
                     <p class="card-text">
-                        <div class="table-wrapper">
-                            <table class="fl-table">
+                        <div class="table-responsive">
+                            <table class="lift-inv-table table-striped">
                                 <thead>
                                     <tr>
                                         <th>Battery Voltage 72V-96V , 96V-180V </th>
@@ -214,31 +225,28 @@
 
                 </div>
             </div>
-            <div class="card">
+            <div class="card card4  w-100 d-flex flex-column justify-content-center align-items-center">
 
                 <div class="card-body">
                     <h5 class="card-title">AC OUTPUT</h5>
                     <p class="card-text">
-                        <div class="table-wrapper">
-                            <table class="normal-table table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th>Technology</th>
-                                        <th>Output voltage</th>
-                                        <th>Output Frequency</th>
-                                        <th>Output Power factor</th>
-                                        <th>Output waveform PWM</th>
-                                        <th>Phase Displacement</th>
-                                        <th>Crest Factor</th>
-                                        <th>Galvanic Isolation</th>
-                                        <th>Harmonic Distortion</th>
-                                        <th>Transient Recovery</th>
-                                        <th>Inverter Efficiency</th>
-                                    </tr>
-                                </thead>
+                        <div class="table-responsive">
+                            <table class="lift-inv-table table-striped inverted-table">
 
                                 <tbody>
-
+                                    <tr>
+                                        <td>Technology</td>
+                                        <td>Output voltage</td>
+                                        <td>Output Frequency</td>
+                                        <td>Output Power factor</td>
+                                        <td>Output waveform PWM</td>
+                                        <td>Phase Displacement</td>
+                                        <td>Crest Factor</td>
+                                        <td>Galvanic Isolation</td>
+                                        <td>Harmonic Distortion</td>
+                                        <td>Transient Recovery</td>
+                                        <td>Inverter Efficiency</td>
+                                    </tr>
                                     <tr>
                                         <td>Mosfet / IGBT Based PWM Inverter using Micro Controller </td>
                                         <td>400 VAC +/- 2 %</td>
@@ -260,7 +268,7 @@
 
                 </div>
             </div>
-            <div class="card">
+            <div class="card card1 w-100">
 
                 <div class="card-body">
                     <h5 class="card-title">Indications</h5>
@@ -270,7 +278,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card card2 w-100">
 
                 <div class="card-body">
                     <h5 class="card-title"> Audible Alarm</h5>
@@ -281,7 +289,7 @@
 
 
 
-            <div class="card">
+            <div class="card card3 w-100">
 
                 <div class="card-body">
                     <h5 class="card-title">e-ARD - EMERGENCY AUTO RESCUE DEVICE</h5>
@@ -292,7 +300,7 @@
                         Project Developed By ----, RENUTRON Service Helpline No. 9371776979</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card card4 w-100">
 
                 <div class="card-body">
                     <h5 class="card-title">Digital Metering and Fault Indications</h5>
@@ -304,7 +312,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card card1 w-100">
 
                 <div class="card-body">
                     <h5 class="card-title">PROTECTIONS</h5>

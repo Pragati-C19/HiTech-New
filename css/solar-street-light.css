@@ -1,0 +1,82 @@
+.parent-img {
+  background: url("../img/products/solar-street-light/street-lamp.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 70px 0;
+}
+
+.parent-img > .list-group {
+  background-color: transparent;
+  width: 75%;
+  border: none;
+}
+
+.parent-img > .list-group > .list-group-item {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.parent-img > .list-group > .list-group-item:hover {
+  font-weight: bold;
+  color: white;
+}
+
+.parent-img > .list-group > :nth-child(4n):hover {
+  background-color: rgb(66, 133, 244, 0.8);
+}
+.parent-img > .list-group > :nth-child(4n + 1):hover {
+  background-color: rgb(219, 68, 55, 0.8);
+}
+.parent-img > .list-group > :nth-child(4n + 2):hover {
+  background-color: rgb(244, 160, 0, 0.8);
+}
+.parent-img > .list-group > :nth-child(4n + 3):hover {
+  background-color: rgb(15, 157, 88, 0.8);
+}
+
+/******************* Solar Street Light Bottom Most 5 comb design *****************************/
+
+/* Box Shadow Generator */
+
+.card5 {
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(66, 133, 244, 0.75);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(66, 133, 244, 0.75);
+  box-shadow: 5px 5px 10px 0px rgba(66, 133, 244, 0.75);
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+  .street-light-info > .row > .card {
+    margin: 5px auto;
+    border-radius: 7px;
+  }
+  .img-row > img {
+    max-width: 95%;
+    margin: auto;
+    border-radius: 50%;
+  }
+}
+/* Desktop View */
+@media (min-width: 600px) {
+  .street-light-info {
+    max-width: 95%;
+    margin: auto;
+  }
+  .street-light-info > .row > .card {
+    max-width: 30%;
+    margin: 10px;
+    border-radius: 7px;
+  }
+
+  .street-light-info > .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-row > img {
+    max-width: 45%;
+    border-radius: 50%;
+  }
+}
