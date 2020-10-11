@@ -1,0 +1,50 @@
+/* Comman CSS */
+
+.list-on-img > .list-group > .list-group-item {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.list-on-img > .list-group > .list-group-item:hover {
+  font-weight: bold;
+  color: white;
+}
+
+.list-on-img > .list-group > :nth-child(4n):hover {
+  background-color: rgb(66, 133, 244, 0.8);
+}
+.list-on-img > .list-group > :nth-child(4n + 1):hover {
+  background-color: rgb(219, 68, 55, 0.8);
+}
+.list-on-img > .list-group > :nth-child(4n + 2):hover {
+  background-color: rgb(244, 160, 0, 0.8);
+}
+.list-on-img > .list-group > :nth-child(4n + 3):hover {
+  background-color: rgb(15, 157, 88, 0.8);
+}
+
+/* Desktop CSS */
+@media (min-width: 600px) {
+  .list-on-img {
+    display: flex;
+    background: url("../img/products/inverter/inverter-background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+  }
+  .list-on-img > .list-group {
+    width: 35%;
+    margin: auto 0;
+  }
+  .list-on-img > img {
+    display: none;
+  }
+  .card-img.w-75.m-auto {
+    display: none;
+  }
+}
+/* Mobile CSS */
+@media (max-width: 600px) {
+}
