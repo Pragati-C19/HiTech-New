@@ -14,6 +14,14 @@
   .no-mobile {
     display: none;
   }
+  tbody > tr > td:nth-child(odd) {
+    padding: 0.5rem;
+    background: rgba(244, 160, 0, 0.5);
+  }
+  td > strong {
+    font-weight: bold;
+    font-size: 9px;
+  }
 }
 
 /* Desktop view */
@@ -21,5 +29,8 @@
   td > img {
     width: 90px;
     height: 90px;
+  }
+  tbody > tr:hover {
+    background: rgba(66, 133, 244, 0.25);
   }
 }
