@@ -47,3 +47,47 @@ td.d-flex.flex-row > .col-4 {
 .card {
   margin: 10px;
 }
+/* Mobile View */
+@media (max-width: 600px) {
+  .button-on-img > ul {
+    display: none;
+  }
+}
+/* Desktop CSS*/
+@media (min-width: 600px) {
+  .button-on-img {
+    height: 80vh;
+    width: 100;
+    background: url("../img/products/ups/UPS-bg-hitech.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .button-on-img > ul {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+  }
+  .button-on-img > ul > li > a {
+    font-weight: bold;
+    padding: 25px;
+  }
+  .button-on-img > ul > li {
+    margin: 10px;
+  }
+  .button-on-img > img {
+    display: none;
+  }
+  .nav-link.btn.btn-outline-warning {
+    background: rgb(255, 255, 255, 0.4);
+  }
+  .nav-link.btn.btn-outline-warning:hover {
+    color: white;
+  }
+  .nav-link.btn.btn-outline-warning.active {
+    color: white;
+  }
+}
