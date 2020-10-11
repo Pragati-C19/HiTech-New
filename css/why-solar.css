@@ -1,3 +1,6 @@
+body{
+    background: -webkit-linear-gradient(left, #f8d383, #fab086);
+}
 .center{
     text-align: center;
 }
@@ -17,7 +20,7 @@
     transition: transform 2s;
     transform-style: preserve-3d;
     transform-origin: center right;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgb(110, 109, 109);
     cursor: pointer;
 }
 
@@ -34,8 +37,31 @@
 
 .card__face--front {
     text-align: center;
-    background-image: url("../img/why-solar/img2.png");
     color: black;
+}
+
+.f1{
+    background-image: url("../img/why-solar/img2.png");
+}
+
+.f2{
+    background-image: url("../img/why-solar/img10.jpg");
+}
+
+.f3{
+    background-image: url("../img/why-solar/img3.png");
+}
+
+.f4{
+    background-image: url("../img/why-solar/img1.png");
+}
+
+.f5{
+    background-image: url("../img/why-solar/img7.png");
+}
+
+.f6{
+    background-image: url("../img/why-solar/img7.jpg");
 }
   
 .card__face--back {
