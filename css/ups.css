@@ -1,0 +1,22 @@
+
+
+/* Lift Table */
+.ups-table {
+  border: 1px solid gray;
+}
+.ups-table > thead > tr,
+.ups-table > tbody > tr {
+  border: 1px solid gray;
+}
+
+.ups-table > thead > tr > th,
+.ups-table > thead > tr > td,
+.ups-table > tbody > tr > th,
+.ups-table > tbody > tr > td {
+  padding: 10px;
+}
+
+/* Title */
+.row-title {
+  margin: 5px auto;
+}
