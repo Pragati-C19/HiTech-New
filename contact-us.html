@@ -21,63 +21,20 @@
 		/>
 		<link rel="stylesheet" href="./css/comman.css" />
 		<link rel="stylesheet" href="./css/contact-us.css" />
-		<link rel="stylesheet" href="./css/index.css" />
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 
-		<title>Contact us | Hitech Controls</title>
-		<!--javascript alert-->
-		<script>
-			function show_alert() {
-				var name = document.myform.txtName.value;
-				var email = document.myform.txtEmail.value;
-				var phn_no = document.myform.txtPhone.value;
-				var msg = document.myform.txtMsg.value;
-
-				if (name == null || name == "") {
-					alert("Please! Enter Your Name...");
-					return false;
-				} else if (email == null || email == "") {
-					alert("Please! Enter Your Email...");
-					return false;
-				} else if (phn_no == null || phn_no == "") {
-					alert("Please! Enter Your Phone Number...");
-					return false;
-				} else if (msg == null || msg == "") {
-					alert("Please! Enter Your Message...");
-					return false;
-				} else {
-					const obj = {
-						name,
-						email,
-						phn_no,
-						msg,
-					};
-					//Printing the Inputs entered by the User
-					alert(
-						`Thank You for contacting Prisma! \n We Received your Message as follows. \n\n${JSON.stringify(
-							obj,
-							null,
-							4
-						)}\n\n We'll contact you as soon as possible.`
-					);
-				}
-				//page location after sending message
-				window.location = "#";
-				//refresh page after sending message
-				window.location.reload();
-			}
-		</script>
+		<title>Contact Us | Hitech Controls</title>
 	</head>
 
 	<body>
 		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<a class="navbar-brand" href="./">
-				<img src="./img/icon/logo-blue.png" class="nav-icon" alt="" />
+				<img src="./img/icon/logo-red.png" class="nav-icon" alt="" />
 				Hi Tech Controls
 			</a>
 			<button
@@ -109,7 +66,6 @@
 							Solar
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="./why-solar.html">Why solar</a>
 							<a class="dropdown-item" href="./what-is-solar.html"
 								>What is solar</a
 							>
@@ -126,6 +82,9 @@
 					</li>
 					<li class="nav-item active">
 						<a class="nav-link" href="./why-us.html">Why us </a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="./clients.html">Our Clients</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a
@@ -301,6 +260,9 @@
 					</li>
 					<li class="list-inline-item">
 						<a href="./why-us.html">Why us</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="./clients.html">Our Clients</a>
 					</li>
 					<li class="list-inline-item">
 						<a href="./contact-us.html">Contact us</a>
