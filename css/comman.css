@@ -10,8 +10,8 @@
 /********************* Footer Styling ****************************/
 .footer-basic {
   padding: 40px 0;
-  background-color: #ffffff;
-  color: #4b4c4d;
+  background-color: black;
+  color: white;
 }
 
 .footer-basic ul {
@@ -58,6 +58,7 @@
 
 .footer-basic .social > a:hover {
   opacity: 0.9;
+  transform: scale(1.1);
 }
 
 .footer-basic .copyright {
@@ -73,6 +74,31 @@
   margin: auto;
 }
 
+.social a:nth-child(1) {
+  background: white;
+  color: black;
+}
+
+.social a:nth-child(2) {
+  background: white;
+  color: black;
+}
+
+.social a:nth-child(4) {
+  background: white;
+  color: black;
+}
+.social a:nth-child(5) {
+  background: white;
+  color: black;
+}
+
+.social a:nth-child(3) {
+  background: white;
+  color: black;
+}
+
+/*
 .social a:nth-child(1) {
   background: #8a3ab9;
   color: white;
@@ -96,3 +122,4 @@
   background: #3cba54;
   color: white;
 }
+*/
