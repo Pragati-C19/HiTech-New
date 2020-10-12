@@ -1,0 +1,19 @@
+/* Mobile View */
+@media (max-width: 600px) {
+  .vision_mission-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    margin: auto 5px;
+  }
+}
+
+/* Desktop View */
+@media (min-width: 600px) {
+  .vision_mission-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 65px;
+    margin: auto 15px;
+  }
+}
