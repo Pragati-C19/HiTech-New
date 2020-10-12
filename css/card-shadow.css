@@ -19,3 +19,10 @@
   -moz-box-shadow: 5px 5px 10px 0px rgba(15, 157, 88, 0.75);
   box-shadow: 5px 5px 10px 0px rgba(15, 157, 88, 0.75);
 }
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  margin: 10px;
+}
