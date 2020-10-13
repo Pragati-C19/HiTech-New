@@ -90,4 +90,14 @@ td.d-flex.flex-row > .col-4 {
   .nav-link.btn.btn-outline-warning.active {
     color: white;
   }
+  .desktop-dnone {
+    display: none;
+  }
+  .tab-content {
+    margin-top: -35px;
+    margin-left: 35px;
+    margin-right: 35px;
+
+    background: rgba(255, 255, 255, 1);
+  }
 }
