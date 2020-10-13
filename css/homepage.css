@@ -1,3 +1,20 @@
+.client-data-cards .card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./../img/clients/bg/slick-slider-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 15px;
+}
+.client-data-cards .card-text {
+  background: transparent;
+}
+.slick-prev.slick-arrow,
+.slick-next.slick-arrow {
+  background-color: black;
+  border-radius: 50%;
+}
 /* Mobile View */
 @media (max-width: 600px) {
   .vision_mission-img {
@@ -5,6 +22,12 @@
     height: 90px;
     border-radius: 45px;
     margin: auto 5px;
+  }
+  .slick-prev.slick-arrow {
+    margin-right: -30px;
+  }
+  .slick-next.slick-arrow {
+    margin-left: -30px;
   }
 }
 
@@ -15,5 +38,12 @@
     height: 130px;
     border-radius: 65px;
     margin: auto 15px;
+  }
+  .client-data-cards .card {
+    min-height: 270px;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
