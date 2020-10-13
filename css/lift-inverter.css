@@ -4,6 +4,12 @@
   display: block;
 }
 
+table td,
+table th {
+  vertical-align: middle;
+  text-align: center;
+}
+
 /* Mobile View Inverted CSS */
 @media (max-width: 600px) {
   .inverted-table > thead > tr > *,
@@ -49,5 +55,9 @@
   .product-table.lift-inv-tablet > head > tr > th,
   .product-table.lift-inv-table > tbody > tr > td {
     padding: 15px 35px;
+  }
+  .w-45 {
+    width: 45%;
+    margin: auto;
   }
 }
