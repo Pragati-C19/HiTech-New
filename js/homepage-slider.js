@@ -1,6 +1,8 @@
 $(document).ready(function () {
   $(".client-data-cards").slick({
     dots: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
     infinite: true,
     speed: 300,
     slidesToShow: 3,

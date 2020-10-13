@@ -6,7 +6,8 @@ $(document).ready(function () {
     slidesToShow: 8,
     slidesToScroll: 1,
     adaptiveHeight: true,
-
+    autoplay: true,
+    autoplaySpeed: 1500,
     responsive: [
       {
         breakpoint: 1024,
