@@ -21,8 +21,8 @@
     />
     <link rel="stylesheet" href="./css/comman.css" />
     <link rel="stylesheet" href="./css/contact-us.css" />
-
     <link rel="stylesheet" href="./css/comman.css" />
+    <link rel="stylesheet" href="./css/products.css" />
     <link rel="stylesheet" href="./css/card-shadow.css" />
     <link rel="stylesheet" href="./css/contact-us.css" />
 
@@ -168,115 +168,125 @@
         </ul>
       </div>
     </nav>
-
-    <div class="container p-2">
-      <div class="row">
-        <div class="col-md-5 col-sm-12 contact-left">
-          <h1>Contacts us at</h1>
-          <br />
-          <h4><i class="fas fa-map-marked-alt contact-icon"></i> Address :</h4>
-          <div class="col-sm">
-            Hi-TECH CONTROLS M - 12, M.I.D.C., <br />
-            Area, Natioanal Highway 6, <br />
-            Jalgaon - 425001 (M.S.)
-          </div>
-          <br />
-          <h4><i class="fas fa-phone-alt contact-icon"></i> Phone Numbers :</h4>
-          <div class="col-sm">
-            +91 257 2211639, 257 2210194
-            <br />
-            +91 9422277158, 9766167323
-          </div>
-          <br />
-          <h4>
-            <i class="fas fa-envelope-open-text contact-icon"></i> Email Address
-            :
-          </h4>
-          <div class="col-sm">hitechcontrols2011@gmail.com</div>
-        </div>
-        <div class="col-md-7 col-sm-12">
-          <div class="iframe-holder">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.7820173645964!2d75.59397311440692!3d21.001373294089714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90ee955555555%3A0xbce9f770d34042ed!2sHi%20-Tech%20Controls!5e0!3m2!1sen!2sin!4v1602250760136!5m2!1sen!2sin"
-              style="width: 100%"
-              height="400"
-              frameborder="0"
-              style="border: 10"
-              allowfullscreen=""
-              aria-hidden="false"
-              tabindex="0"
-            ></iframe>
-          </div>
-        </div>
-      </div>
+    <div class="title-cover">
+      <h2>Contact us</h2>
     </div>
-    <br />
-    <div class="container contact-form">
-      <!--contact us icon-->
-      <div class="contact-image">
-        <img src="./img/icon/email (1).png" alt="rocket_contact" />
-      </div>
-      <!--contact us form-->
-      <form name="myform" method="post">
-        <h3>Drop Us a Message</h3>
+    <div class="container">
+      <div class="container p-2 w-100 card1">
         <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input
-                type="text"
-                name="txtName"
-                class="form-control"
-                placeholder="Your Name *"
-                value=""
-              />
-            </div>
-            <div class="form-group">
-              <input
-                type="text"
-                name="txtEmail"
-                class="form-control"
-                placeholder="Your Email *"
-                value=""
-                onchange="onChange()"
-              />
-            </div>
-            <div class="form-group">
-              <input
-                type="text"
-                name="txtPhone"
-                class="form-control"
-                placeholder="Your Phone Number *"
-                value=""
-              />
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <textarea
-                name="txtMsg"
-                class="form-control usermsg"
-                placeholder="Your Message *"
-              ></textarea>
-            </div>
-          </div>
-        </div>
-        <br />
-        <br />
-        <div class="row justify-content-md-center">
-          <div class="col d-flex justify-content-center">
-            <a
-              href="/"
-              target="_blank"
-              name="btnSubmit"
-              class="btnContact text-center"
-              onclick="show_alert()"
-              >Send Message</a
+          <div
+            class="col-md-5 col-sm-12 contact-left d-flex flex-column justify-content-center align-items-center"
+          >
+            <h4><i class="fa fa-address-card"></i> Address :</h4>
+            <div
+              class="col-sm card3 p-1 d-flex flex-column justify-content-center align-items-center"
             >
+              Hi-Tech Controls M - 12, M.I.D.C., <br />
+              Area, Natioanal Highway 6, <br />
+              Jalgaon - 425001 (M.S.)
+            </div>
+
+            <h4><i class="fa fa-phone contact-icon"></i> Phone Numbers :</h4>
+            <div
+              class="col-sm p-1 card4 d-flex flex-column justify-content-center align-items-center"
+            >
+              +91 257 2210194
+              <br />
+              +91 9422277158, 9766167323
+            </div>
+
+            <h4>
+              <i class="fa fa-envelope-o contact-icon"></i> Email Address :
+            </h4>
+            <div
+              class="col-sm p-1 card2 d-flex flex-column justify-content-center align-items-center"
+            >
+              hitechcontrols2011@gmail.com
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-11 m-auto">
+            <div class="iframe-holder card2">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.7820173645964!2d75.59397311440692!3d21.001373294089714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90ee955555555%3A0xbce9f770d34042ed!2sHi%20-Tech%20Controls!5e0!3m2!1sen!2sin!4v1602250760136!5m2!1sen!2sin"
+                style="width: 100%"
+                height="400"
+                frameborder="0"
+                style="border: 10"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
           </div>
         </div>
-      </form>
+      </div>
+      <br />
+      <div class="container contact-form w-100 card1">
+        <!--contact us icon-->
+        <div class="contact-image">
+          <img src="./img/icon/email (1).png" alt="rocket_contact" />
+        </div>
+        <!--contact us form-->
+        <form name="myform" method="post">
+          <h3>Drop Us a Message</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="txtName"
+                  class="form-control"
+                  placeholder="Your Name *"
+                  value=""
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="txtEmail"
+                  class="form-control"
+                  placeholder="Your Email *"
+                  value=""
+                  onchange="onChange()"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="txtPhone"
+                  class="form-control"
+                  placeholder="Your Phone Number *"
+                  value=""
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea
+                  name="txtMsg"
+                  class="form-control usermsg"
+                  placeholder="Your Message *"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div class="row justify-content-md-center">
+            <div class="col d-flex justify-content-center">
+              <a
+                href="/"
+                target="_blank"
+                name="btnSubmit"
+                class="btnContact text-center"
+                onclick="show_alert()"
+                >Send Message</a
+              >
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
-
     <!--Footer-->
     <div class="footer-basic">
       <footer>
