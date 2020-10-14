@@ -3,7 +3,8 @@ body {
   background: -webkit-linear-gradient(left, #f5caea, #f5a9bc);
 }*/
 .contact-form {
-  background: -webkit-linear-gradient(left, #4894f085, #00c8ff75);
+  /* background: -webkit-linear-gradient(left, #4894f085, #00c8ff75); */
+  background: -webkit-linear-gradient(left, #7f808085, #b5b6b875);
 }
 
 .contact-form .form-control {
@@ -46,14 +47,15 @@ body {
 
   font-size: 250%;
   text-align: center;
-  color: #631f3d;
+  /* color: #631f3d; */
+  color: #1d0d09;
 }
 .contact-form .btnContact {
   border: none;
   outline: none;
   border-radius: 1rem;
 
-  background: #04ad1a;
+  background: #1d0d09;
   font-weight: 600;
   color: #fff;
   cursor: pointer;

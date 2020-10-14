@@ -19,6 +19,15 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
     <link rel="stylesheet" href="./css/comman.css" />
     <link rel="stylesheet" href="./css/contact-us.css" />
     <link rel="stylesheet" href="./css/comman.css" />
@@ -80,10 +89,9 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="./">
-        <img src="./img/icon/logo-red.png" class="nav-icon" alt="" />
-        Hi Tech Controls
+        <img src="./img/icon/full_logo-red_3.png" alt="" />
       </a>
       <button
         class="navbar-toggler"
@@ -169,8 +177,10 @@
     <div class="title-cover">
       <h2>Contact us</h2>
     </div>
+    <br>
+    <br>
     <div class="container">
-      <div class="container p-2 w-100 card1">
+      <div class="container p-2 w-100">
         <div class="row">
           <div
             class="col-md-5 col-sm-12 contact-left d-flex flex-column justify-content-center align-items-center"
@@ -186,7 +196,7 @@
 
             <h4><i class="fa fa-phone contact-icon"></i> Phone Numbers :</h4>
             <div
-              class="col-sm p-1 card4 d-flex flex-column justify-content-center align-items-center"
+              class="col-sm card4 p-1 d-flex flex-column justify-content-center align-items-center"
             >
               +91 257 2210194
               <br />
@@ -197,13 +207,13 @@
               <i class="fa fa-envelope-o contact-icon"></i> Email Address :
             </h4>
             <div
-              class="col-sm p-1 card2 d-flex flex-column justify-content-center align-items-center"
+              class="col-sm card2 p-1 d-flex flex-column justify-content-center align-items-center"
             >
               hitechcontrols2011@gmail.com
             </div>
           </div>
           <div class="col-md-6 col-sm-11 m-auto">
-            <div class="iframe-holder card2">
+            <div class="iframe-holder card1">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.7820173645964!2d75.59397311440692!3d21.001373294089714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90ee955555555%3A0xbce9f770d34042ed!2sHi%20-Tech%20Controls!5e0!3m2!1sen!2sin!4v1602250760136!5m2!1sen!2sin"
                 style="width: 100%"
@@ -219,10 +229,10 @@
         </div>
       </div>
       <br />
-      <div class="container contact-form w-100 card1">
+      <div class="container contact-form w-100 card5">
         <!--contact us icon-->
         <div class="contact-image">
-          <img src="./img/icon/email (1).png" alt="rocket_contact" />
+          <img src="./img/icon/email.png" alt="email_contact" />
         </div>
         <!--contact us form-->
         <form name="myform" method="post">
@@ -287,6 +297,58 @@
     </div>
     <!--Footer-->
     <div class="footer-basic">
+      <div class="container">
+        <div class="row mx-2 px-2">
+          <h4>Our Proud Clients</h4>
+        </div>
+        <div class="comman-slider">
+          <div>
+            <img class="w-100 p-1" src="./img/clients/idbi-bank.png" alt="" />
+          </div>
+          <div>
+            <img
+              class="w-100 p-1"
+              src="./img/clients/jain-irrigation.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img class="w-100 p-1" src="./img/clients/legrand.jpg" alt="" />
+          </div>
+          <div>
+            <img class="w-100 p-1" src="./img/clients/lomat-news.png" alt="" />
+          </div>
+          <div>
+            <img class="w-100 p-1" src="./img/clients/marico.jpg" alt="" />
+          </div>
+          <div>
+            <img class="w-100 p-1" src="./img/clients/nmu.png" alt="" />
+          </div>
+          <div>
+            <img class="w-100 p-1" src="./img/clients/raymond.png" alt="" />
+          </div>
+          <div>
+            <img class="w-100 p-1" src="./img/clients/sakal.jpg" alt="" />
+          </div>
+          <div>
+            <img
+              class="w-100 p-1"
+              src="./img/clients/supreme-plastics.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="./img/clients/axon-hospital.jpg"
+              class="w-100 p-1"
+              alt=""
+            />
+          </div>
+          <div>
+            <img src="./img/clients/jtm-coe.jpeg" class="w-100 p-1" alt="" />
+          </div>
+        </div>
+      </div>
       <footer>
         <div class="social">
           <a href="tel:9766167323">
@@ -333,5 +395,10 @@
       </footer>
     </div>
     <script src="./js/contact-us.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/comman-slider.js"></script>
   </body>
 </html>
