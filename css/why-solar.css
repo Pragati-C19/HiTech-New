@@ -58,7 +58,6 @@
 }
 
 .card__face--back {
-  text-align: center;
   background-color: #050f16;
   color: white;
   transform: rotateY(180deg);
