@@ -43,7 +43,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="./">
-        <img src="./img/icon/full_logo-red_3.png"alt="" />
+        <img src="./img/icon/full_logo-red_3.png" alt="" />
       </a>
       <button
         class="navbar-toggler"
@@ -115,7 +115,9 @@
                 >Voltage Stabilizer</a
               >
               <a class="dropdown-item" href="./ups.html">UPS</a>
-              <a class="dropdown-item" href="./inverter.html">Home UPS (Inverter)</a>
+              <a class="dropdown-item" href="./inverter.html"
+                >Home UPS (Inverter)</a
+              >
               <a class="dropdown-item" href="./control-panel.html"
                 >Control Panel</a
               >
@@ -147,40 +149,89 @@
         usable AC current. At that point, you either use the electricity in your
         house or send it back to the electric grid using net electricity meter.
       </p>
-
       <h4 class="center">Various Cases</h4>
-      <br>
-        <img src="./img/solar/intro/case1.jpg" class="img-thumbnail w-100" />
-        <br>
-        <br>
-        <br>
-        <img src="./img/solar/intro/case2.jpg" class="img-thumbnail w-100" />
-        <br>
-        <br>
-        <br>
-        <img src="./img/solar/intro/case3.jpg" class="img-thumbnail w-100" />
-        <br>
-        <br>
-        <br>
-        <img src="./img/solar/intro/case4.jpg" class="img-thumbnail w-100" />
-      <br>
-      <br>
+
+      <div class="row canvas-row">
+        <div class="col-md-3">
+          <button class="btn btn-outline-warning w-100 p-1 m-1" id="btn1">
+            Case 1 - Hybrid Solar
+          </button>
+          <button class="btn btn-outline-warning w-100 p-1 m-1" id="btn2">
+            Case 2 - Off Grid Solar
+          </button>
+          <button class="btn btn-outline-warning w-100 p-1 m-1" id="btn3">
+            Case 3 - On-Grid Open Excess
+          </button>
+          <button class="btn btn-outline-warning w-100 p-1 m-1" id="btn4">
+            Case 4 - On-Grid Rooftop Solar
+          </button>
+        </div>
+        <div class="col-md-9 canvas-div">
+          <img
+            src="./img/what-is-solar/what-is-solar-canvas.png"
+            alt=""
+            class="img-canvas"
+          />
+          <img
+            src="./img/what-is-solar/banned.png"
+            alt=""
+            class="banned1 on-img-icon"
+          />
+          <img
+            src="./img/what-is-solar/banned.png"
+            alt=""
+            class="banned2 on-img-icon"
+          />
+          <img
+            src="./img/what-is-solar/two way arrow.png"
+            alt=""
+            class="two-way on-img-icon"
+          />
+          <img
+            src="./img/what-is-solar/45-top.png"
+            alt=""
+            class="top45 on-img-icon"
+          />
+          <img
+            src="./img/what-is-solar/one-way.png"
+            alt=""
+            class="down on-img-icon"
+          />
+          <img
+            src="./img/what-is-solar/sun-to-panel.png"
+            alt=""
+            class="forward on-img-icon"
+          />
+          <img
+            src="./img/what-is-solar/sun-to-panel.png"
+            alt=""
+            class="forward-two on-img-icon"
+          />
+          <img
+            src="./img/what-is-solar/inverter-to-grid.png"
+            alt=""
+            class="backward on-img-icon"
+          />
+        </div>
+      </div>
+      <h4 class="center">Various Cases</h4>
+      <br />
+      <img src="./img/solar/intro/case1.jpg" class="img-thumbnail w-100" />
+      <br />
+      <br />
+      <br />
+      <img src="./img/solar/intro/case2.jpg" class="img-thumbnail w-100" />
+      <br />
+      <br />
+      <br />
+      <img src="./img/solar/intro/case3.jpg" class="img-thumbnail w-100" />
+      <br />
+      <br />
+      <br />
+      <img src="./img/solar/intro/case4.jpg" class="img-thumbnail w-100" />
+      <br />
+      <br />
     </div>
-      <!--
-      <div class="row">
-        <div class="col-md-6">
-          <img src="./img/solar/intro/case1.jpg" class="w-100" />
-        </div>
-        <div class="col-md-6">
-          <img src="./img/solar/intro/case2.jpg" class="w-100" />
-        </div>
-        <div class="col-md-6">
-          <img src="./img/solar/intro/case3.jpg" class="w-100" />
-        </div>
-        <div class="col-md-6">
-          <img src="./img/solar/intro/case4.jpg" class="w-100" />
-        </div>
-      </div> -->
 
     <!--Footer-->
     <div class="footer-basic">
@@ -284,10 +335,11 @@
         </p>
       </footer>
       <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script src="./js/comman-slider.js"></script>
+        type="text/javascript"
+        src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+      ></script>
+      <script src="./js/comman-slider.js"></script>
+      <script src="./js/what-is-solar.js"></script>
     </div>
   </body>
 </html>

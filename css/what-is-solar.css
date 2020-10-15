@@ -1,4 +1,160 @@
+.center {
+  text-align: center;
+}
+.canvas-div {
+  width: 100%;
+  position: relative;
+}
+.img-canvas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.col-md-3,
+.col-md-9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-.center{
-    text-align: center;
+/* What is solar tabination */
+.banned1,
+.banned2,
+.two-way,
+.top45,
+.down,
+.forward,
+.forward-two,
+.backward {
+  position: absolute;
+}
+
+.forward,
+.backward,
+.forward-two,
+.two-way {
+  animation: LeftAndRight 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.down,
+.top45 {
+  animation: UpAndDown 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.banned1,
+.banned2 {
+  animation: Breathing 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.on-img-icon {
+  width: 20%;
+}
+/* Mobile CSS */
+@media (max-width: 600px) {
+  .canvas-div {
+    height: 50vh;
+  }
+
+  .img-canvas {
+    width: 105%;
+  }
+
+  /* Animation Scale */
+  .forward {
+    left: 22%;
+    top: 10%;
+  }
+  .down {
+    left: 37%;
+    top: 25%;
+  }
+  .two-way,
+  .backward {
+    left: 22%;
+    top: 39%;
+  }
+  .banned1 {
+    top: 10%;
+    left: 75%;
+  }
+  .banned2 {
+    top: 39%;
+    left: 75%;
+  }
+  .forward-two {
+    top: 39%;
+    left: 55%;
+  }
+  .top45 {
+    left: 55%;
+    top: 20%;
+  }
+}
+/* Desktop CSS */
+@media (min-width: 600px) {
+  .canvas-row {
+    height: 80vh;
+  }
+
+  .col-md-3 .btn {
+    font-weight: bold;
+    height: 17%;
+    margin: 5px;
+  }
+
+  /* Animation Scale */
+  .forward {
+    left: 22%;
+    top: 10%;
+  }
+  .down {
+    left: 37%;
+    top: 25%;
+  }
+  .two-way,
+  .backward {
+    left: 22%;
+    top: 39%;
+  }
+  .banned1 {
+    top: 10%;
+    left: 75%;
+  }
+  .banned2 {
+    top: 39%;
+    left: 75%;
+  }
+  .forward-two {
+    top: 39%;
+    left: 55%;
+  }
+  .top45 {
+    left: 55%;
+    top: 20%;
+  }
+}
+
+/*Animation*/
+/* Up and Down */
+@keyframes UpAndDown {
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Left and Right */
+@keyframes LeftAndRight {
+  50% {
+    transform: translateX(-10px);
+  }
+}
+
+/* Breathing */
+@keyframes Breathing {
+  50% {
+    transform: scale(1.2);
+  }
 }
