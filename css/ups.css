@@ -6,6 +6,14 @@
 .ups-table > tbody > tr {
   border: 1px solid gray;
 }
+table td,
+table th {
+  vertical-align: middle;
+  text-align: center;
+}
+.big-table th {
+  border-right: 0.5px solid gray;
+}
 
 .ups-table > thead > tr > th,
 .ups-table > thead > tr > td,
