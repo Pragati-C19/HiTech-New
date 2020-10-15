@@ -3,6 +3,24 @@ body{
     text-align: center;
 }*/
 
-.center{
-    text-align: center;
+.center {
+  text-align: center;
+}
+
+.card.w-100:hover {
+  transform: scale(1.04);
+}
+/* Desktop CSS */
+@media (min-width: 600px) {
+  .core-values-bg {
+    background: radial-gradient(rgba(0, 0, 0, 0.1), black),
+      url("../img/why-us/core-values-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .core-values-bg .card.w-100 {
+    max-width: 60%;
+    border-radius: 7px;
+  }
 }
