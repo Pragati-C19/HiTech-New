@@ -5,7 +5,11 @@
   height: 250px;
   perspective: 1000px;
 }
-
+.col-12.col-md-6.mb-4.col-lg-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .card {
   position: relative;
   width: 100%;
