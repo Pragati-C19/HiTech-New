@@ -46,7 +46,10 @@ table th {
 .card {
   margin: 12px;
 }
-
+.big-table th,
+.big-table td {
+  border-right: 0.5px solid black;
+}
 /* Desktop View of Product Table */
 @media (min-width: 600px) {
   .product-table {
