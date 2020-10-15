@@ -112,16 +112,20 @@ div#timeline-content h1 {
 /* Mobile View */
 @media (max-width: 600px) {
   .timeline {
-    max-width: 75%;
+    max-width: 95%;
+    margin: auto;
+    padding: 0;
+  }
+  .event {
+    margin-bottom: 10px;
   }
   .event h3 {
     font-size: 20px;
   }
-  .event img {
+  .timeline-icon {
     width: 65px;
     height: 65px;
     border-radius: 50%;
-    float: left;
   }
 }
 /* Desktop View */
@@ -132,14 +136,12 @@ div#timeline-content h1 {
   .event {
     min-height: 120px;
   }
-  .event img {
+  .timeline-icon {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    float: left;
   }
   .event h3 {
-    float: right;
     text-align: left;
   }
 }
@@ -151,4 +153,22 @@ div#timeline-content h1 {
   background: white;
   color: black;
   border-radius: 5px;
+}
+
+.event {
+  display: flex;
+  flex-direction: row;
+}
+
+.event .col:nth-child(first) {
+  width: 75%;
+}
+.event .col:nth-child(last) {
+  width: 25%;
+}
+
+.col-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
