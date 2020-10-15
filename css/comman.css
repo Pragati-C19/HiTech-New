@@ -1,4 +1,8 @@
-
+/* Overflow Bug in Mobile View */
+body,
+html {
+  overflow-x: hidden;
+}
 /********************* Navbar Styling ****************************/
 .drop-font {
   color: rgb(0, 0, 0, 0.9);
