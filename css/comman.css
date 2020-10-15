@@ -1,3 +1,4 @@
+
 /********************* Navbar Styling ****************************/
 .drop-font {
   color: rgb(0, 0, 0, 0.9);
@@ -126,4 +127,19 @@
 
 .comman-slider img {
   border-radius: 50%;
+}
+
+/* Logo Mobile View */
+@media (max-width: 600px) {
+  .navbar-brand img {
+    float: left;
+    width: 100%;
+  }
+  .navbar-brand {
+    width: 75%;
+  }
+  .navbar.navbar-expand-lg {
+    display: flex;
+    flex-direction: row;
+  }
 }
