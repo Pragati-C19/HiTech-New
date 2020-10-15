@@ -1,5 +1,5 @@
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 .client-data-cards .card {
@@ -19,6 +19,22 @@
   background-color: black;
   border-radius: 50%;
 }
+
+.gray-scale {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gray-scale > div > img {
+  filter: grayscale(1);
+  border-radius: 50%;
+}
+.gray-scale > div > img:hover {
+  filter: grayscale(0);
+  transform: scale(1.04);
+}
 /* Mobile View */
 @media (max-width: 600px) {
   .vision_mission-img {
@@ -32,6 +48,9 @@
   }
   .slick-next.slick-arrow {
     margin-left: -30px;
+  }
+  .gray-scale > div {
+    max-width: 30%;
   }
 }
 
