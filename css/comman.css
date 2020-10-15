@@ -7,11 +7,12 @@ html {
 .drop-font {
   color: rgb(0, 0, 0, 0.9);
 }
+/*
 .nav-icon {
   width: 50px;
   height: 50px;
 }
-
+*/
 /********************* Footer Styling ****************************/
 .footer-basic {
   padding: 40px 0;
