@@ -29,6 +29,11 @@ table th {
   display: block;
 }
 
+.card.w-100,
+.card table {
+  border-radius: 10px;
+}
+
 /* Mobile View Inverted CSS */
 @media (max-width: 600px) {
   .inverted-ups-table > thead > tr > *,
