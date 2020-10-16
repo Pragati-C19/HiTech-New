@@ -23,6 +23,11 @@
   background: #fff;
 }
 
+.vs-table > tbody > tr > td:first-child {
+  text-align: center;
+  vertical-align: middle;
+}
+
 /* Mobile CSS */
 @media (max-width: 600px) {
   .vs-img-bg {
