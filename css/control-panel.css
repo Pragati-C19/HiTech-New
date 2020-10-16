@@ -1,3 +1,62 @@
 .card.p-2 {
   margin: 10px;
 }
+.control-panel-info {
+  background: url("../img/products/control-panels/control-panel-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.control-panel-info .list-group {
+  background-color: transparent;
+  width: 75%;
+  border: none;
+}
+
+.control-panel-info .list-group > .list-group-item {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.control-panel-info .list-group > .list-group-item:hover {
+  font-weight: bold;
+  color: white;
+}
+
+.control-panel-info .list-group > :nth-child(4n):hover {
+  background-color: rgb(66, 133, 244, 0.8);
+}
+.control-panel-info .list-group > :nth-child(4n + 1):hover {
+  background-color: rgb(219, 68, 55, 0.8);
+}
+.control-panel-info .list-group > :nth-child(4n + 2):hover {
+  background-color: rgb(244, 160, 0, 0.8);
+}
+.control-panel-info .list-group > :nth-child(4n + 3):hover {
+  background-color: rgb(15, 157, 88, 0.8);
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+  .control-panel-info > .row > div {
+    max-width: 75%;
+  }
+}
+/* Desktop View */
+@media (min-width: 600px) {
+  .control-panel-info > .row > div {
+    margin: 100px 0;
+    border-radius: 17px;
+  }
+
+  .control-panel-info > .row > div > .list-group {
+    width: 100%;
+  }
+
+  .control-panel-info > .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
