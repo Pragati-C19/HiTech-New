@@ -9,3 +9,8 @@ table.MsoNormalTable > tbody > tr:nth-child(odd) > td {
 table.MsoNormalTable > tbody > tr:nth-child(even) > td {
   background: #fafafa;
 }
+
+table.MsoNormalTable tr > td:first-child,
+table.MsoNormalTable tr > td:last-child {
+  text-align: center;
+}
