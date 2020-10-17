@@ -21,7 +21,7 @@ $("#btn2").click(function () {
   $("#btn4").removeClass("active");
 
   $(".banned1").hide();
-  $(".banned2").hide();
+  $(".banned2").css("top", "39%").css("left", "7%");
   $(".two-way").hide();
   $(".top45").show();
   $(".down").show();
@@ -37,7 +37,7 @@ $("#btn3").click(function () {
   $("#btn4").removeClass("active");
 
   $(".banned1").show();
-  $(".banned2").show();
+  $(".banned2").css("top", "39%").css("left", "75%").show();
   $(".two-way").hide();
   $(".top45").hide();
   $(".down").show();
@@ -53,7 +53,7 @@ $("#btn4").click(function () {
   $("#btn4").removeClass("active").addClass("active");
 
   $(".banned1").hide();
-  $(".banned2").show();
+  $(".banned2").css("top", "39%").css("left", "75%").show();
   $(".two-way").show();
   $(".top45").show();
   $(".down").show();
