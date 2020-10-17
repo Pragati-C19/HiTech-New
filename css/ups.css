@@ -46,6 +46,9 @@ table th {
     min-height: 100px;
     border: 0.5px solid;
   }
+  .desktop-only {
+    display: none;
+  }
 }
 .inverted-ups-table > thead > tr,
 .inverted-ups-table > tbody > tr {
@@ -116,5 +119,8 @@ td.d-flex.flex-row > .col-4 {
     margin-right: 35px;
 
     background: rgba(255, 255, 255, 1);
+  }
+  .mobile-only {
+    display: none;
   }
 }

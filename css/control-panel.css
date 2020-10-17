@@ -58,6 +58,9 @@
   .control-panel-info > .row > div {
     max-width: 75%;
   }
+  .desktop-only {
+    display: none;
+  }
 }
 /* Desktop View */
 @media (min-width: 600px) {
@@ -102,5 +105,8 @@
 
   .vs-img-bg > .list-group > * {
     background: rgb(255, 255, 255, 0.4);
+  }
+  .mobile-only {
+    display: none;
   }
 }

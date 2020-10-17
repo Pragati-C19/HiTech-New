@@ -28,9 +28,11 @@
   vertical-align: middle;
 }
 
+.vs-table > tbody > tr > td:first-child {
+  width: 193px;
+}
 /* Mobile CSS */
 @media (max-width: 600px) {
-
   .tab-icon {
     width: 45px;
     height: 45px;
