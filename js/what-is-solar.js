@@ -21,7 +21,7 @@ $("#btn2").click(function () {
   $("#btn4").removeClass("active");
 
   $(".banned1").hide();
-  $(".banned2").css("top", "39%").css("left", "7%");
+  $(".banned2").css("top", "39%").css("left", "7%").show();
   $(".two-way").hide();
   $(".top45").show();
   $(".down").show();
