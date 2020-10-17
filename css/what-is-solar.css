@@ -55,7 +55,7 @@
 /* Mobile CSS */
 @media (max-width: 600px) {
   .canvas-div {
-    height: 50vh;
+    height: 40vh;
   }
 
   .img-canvas {
