@@ -36,6 +36,23 @@
   background-color: rgb(15, 157, 88, 0.8);
 }
 
+.vs-img-bg > .list-group > .list-group-item:hover {
+  font-weight: bold;
+  color: white;
+}
+.vs-img-bg > .list-group > :nth-child(4n):hover {
+  background-color: rgb(66, 133, 244, 0.8);
+}
+.vs-img-bg > .list-group > :nth-child(4n + 1):hover {
+  background-color: rgb(219, 68, 55, 0.8);
+}
+.vs-img-bg > .list-group > :nth-child(4n + 2):hover {
+  background-color: rgb(244, 160, 0, 0.8);
+}
+.vs-img-bg > .list-group > :nth-child(4n + 3):hover {
+  background-color: rgb(15, 157, 88, 0.8);
+}
+
 /* Mobile View */
 @media (max-width: 600px) {
   .control-panel-info > .row > div {
@@ -58,5 +75,32 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+
+  .vs-img-bg {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 212, 255, 0) 48%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url("../img/products/ups/pcb-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+  }
+  .vs-img-bg > .list-group {
+    margin: 70px 0;
+    min-width: 250px;
+    max-width: 35%;
+  }
+  .vs-img-bg > .list-group.right-grp {
+    margin-left: auto;
+  }
+
+  .vs-img-bg > .list-group > * {
+    background: rgb(255, 255, 255, 0.4);
   }
 }
