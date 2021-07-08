@@ -52,7 +52,7 @@ JS is used alert msg for Validation of user inputs.
 
 ![Navbar](https://github.com/Pragati-C19/HiTech-New/blob/main/screenshorts/navbar.jpg?raw=true)
 
-<li> Client hover Cards </li>
+<li> Client Hover Cards </li>
 <br>
 
 ![Client Cards](https://github.com/Pragati-C19/HiTech-New/blob/main/screenshorts/clients_cards.jpg?raw=true)
